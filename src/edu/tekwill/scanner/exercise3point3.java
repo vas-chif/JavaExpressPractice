@@ -1,7 +1,7 @@
 package edu.tekwill.scanner;
 /**
  * @author vas-chif
- * @Exercise #3.3: Using and manipulating numbers
+ * @Exercise #3.3: Fahrenheit to Celsius degree
  */
 
 import java.util.Scanner;

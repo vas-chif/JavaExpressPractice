@@ -1,13 +1,14 @@
 package edu.tekwill.scanner;
 /**
  * @author vas-chif
- * @Exercise #3.4: Using and manipulating numbers
+ * Exercise #3.4: minutes to nr. of years and days
  */
 
 import  java.util.Scanner;
 
 public class Exercise3point4 {
     public static void main(String[] arg){
+
         int secondsInAMinute = 60;
         int minutesInAnHours = 60;
         int secondsInAnHours = (secondsInAMinute * minutesInAnHours);
