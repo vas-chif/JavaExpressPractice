@@ -1,4 +1,4 @@
-package edu.tekwill.vehicles;
+package edu.tekwill.colors;
 
 public class Colors {
     public static void main(String[] args) {
