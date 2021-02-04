@@ -1,4 +1,8 @@
 package edu.tekwill.scanner;
+/**
+ * @author vas-chif
+ * @Exercise #3.4: Using and manipulating numbers
+ */
 
 import  java.util.Scanner;
 
