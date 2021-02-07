@@ -1,5 +1,5 @@
 package edu.tekwill.scanner;
-/**
+/*
  * @author vas-chif
  * Exercise #3.4: minutes to nr. of years and days
  */
