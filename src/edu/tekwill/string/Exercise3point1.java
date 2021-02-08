@@ -5,7 +5,7 @@ package edu.tekwill.string;
  * @Exercise #3.1: Using String variables
  */
 
-public class exercise3point1 {
+public class Exercise3point1 {
     public static void main(String... args){
         String name = "John";
         System.out.println("“My name is"+ " " + name + " Doe”");

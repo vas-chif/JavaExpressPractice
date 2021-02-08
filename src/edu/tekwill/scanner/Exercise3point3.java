@@ -6,7 +6,7 @@ package edu.tekwill.scanner;
 
 import java.util.Scanner;
 
-public class exercise3point3 {
+public class Exercise3point3 {
     public static void main(String... args){
 
         Scanner celsius = new Scanner(System.in);

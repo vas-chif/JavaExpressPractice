@@ -1,4 +1,4 @@
 package edu.tekwill.variable;
 
-public class string {
+public class String {
 }

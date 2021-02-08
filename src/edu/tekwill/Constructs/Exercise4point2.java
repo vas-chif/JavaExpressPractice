@@ -9,20 +9,22 @@ public class Exercise4point2 {
         int a = userImput.nextInt();
         int b = userImput.nextInt();
         int c = userImput.nextInt();
-        if ((a < b) && (a < c)) //((a < b) && (a < c) && (c != b))
+        if ((a <= b) && (a <= c))
             System.out.println("The min number is " + a + "!");
 
-        if ((b < a) && (b < c)) //((b < a) && (b < c) && (a != c))
+        else if ((b <= a) && (b <= c))
             System.out.println("The min number is " + b + "!");
 
-        if ((c < a) && (c < b)) //((c < a) && (c < b) && (a != b))
+        else if ((c <= a) && (c <= b))
             System.out.println("The min number is " + c + "!");
 
-        if ((a == b) || (a == c) || (b == c))
-            System.out.println("2 or all 3 numbers are the same");
+        //  else if ((a == b) || (a == c) || (b == c))
+        //    System.out.println("2 or all 3 numbers are the same");
 
         System.out.println("Return result whit Ternary operator");
-        String ter = ((a < b) && (a < c)  )? ("The min number is " + a + "!") : ("The min number is " + b + "!");
+        String ter = ((a <= b) && (a <= c) && (b <= c )) ? ("The min number is " + a + "!") : ("The min number is " + b + "!");
         System.out.println(ter);
+        //ter = ((b <= a) && (b <= c) && (a <= c)) ? ("The min number is " + b + "!") : ter = ((c <= a) && (c <= b) && (b <= a )) ? ("The min number is " + c + "!") : "nil";
+
     }
 }
