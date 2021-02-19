@@ -4,7 +4,9 @@ package edu.tekwill.array;
  * @author vas-chif
  * @Exercise #5.3 Working with arrays
  */
+
 import java.util.Scanner;
+
 public class Exercise5point3 {
     public static void main(String[] args) {
 
@@ -43,17 +45,17 @@ public class Exercise5point3 {
         System.out.println("Please enter a character: ");
         char value = sc.next().charAt(0);
         boolean foundCharacter = false;
-        for (char item : valueArray){
-            if ((char)item == value){
+        for (char item : valueArray) {
+            if ((char) item == value) {
                 foundCharacter = true;
                 break;
             }
         }
-        System.out.println(foundCharacter? "The character searched for was found!" : "It is impossible to find the character!");
+        System.out.println(foundCharacter ? "The character searched for was found!" : "It is impossible to find the character!");
 
 //5.3.4
 //5.3.5
 //5.3.6
-//5.3.7 Write a Java program to check if two arrays are equal: check both the length and the values.
+//5.3.7 is in another file
     }
 }
