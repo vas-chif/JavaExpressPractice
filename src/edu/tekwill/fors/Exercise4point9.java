@@ -1,5 +1,9 @@
 package edu.tekwill.fors;
 
+/*
+ * @author vas-chif
+ * @Exercise #4.9
+ */
 import java.util.Scanner;
 
 public class Exercise4point9 {
