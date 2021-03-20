@@ -1,7 +1,7 @@
-package edu.tekwill.shapes;
+package edu.tekwill.shapes.geometric;
 
-import edu.tekwill.shapes.circle.Circle;
-import edu.tekwill.shapes.rectangle.Rectangle;
+import edu.tekwill.shapes.geometric.circle.Circle;
+import edu.tekwill.shapes.geometric.rectangle.Rectangle;
 
 import java.util.Scanner;
 

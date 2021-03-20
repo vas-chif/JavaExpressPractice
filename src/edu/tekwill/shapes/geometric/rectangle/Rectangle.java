@@ -1,4 +1,4 @@
-package edu.tekwill.shapes.rectangle;
+package edu.tekwill.shapes.geometric.rectangle;
 
 public class Rectangle {
     public int length;

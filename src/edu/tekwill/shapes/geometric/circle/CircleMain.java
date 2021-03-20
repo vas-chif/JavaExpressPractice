@@ -1,4 +1,4 @@
-package edu.tekwill.shapes.circle;
+package edu.tekwill.shapes.geometric.circle;
 
 public class CircleMain {
     public static void main(String[] args) {

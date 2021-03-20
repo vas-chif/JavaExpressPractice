@@ -1,4 +1,4 @@
-package edu.tekwill.shapes.rectangle;
+package edu.tekwill.shapes.geometric.rectangle;
 
 import java.util.Scanner;
 
