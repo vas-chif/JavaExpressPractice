@@ -29,12 +29,12 @@ System.out.println("Target Array after: " + Arrays.toString(targetArray));
 
 //5.3.6 Write a Java program to find the number of even and odd integers in a given array of integers.
         int oddCount = 0;
-        for (int elemnt : someNumbers) {
+        for (int elemnt : sourceArray) {
             if (elemnt % 2 == 1 || elemnt % 2 == -1) {
                 oddCount++;
             }
         }
-        int evenNumbers = someNumbers.length - oddCount;
+        int evenNumbers = sourceArray.length - oddCount;
         System.out.println("Odd numbers: " + oddCount);
         System.out.println("Even numbers: " + evenNumbers);
     }

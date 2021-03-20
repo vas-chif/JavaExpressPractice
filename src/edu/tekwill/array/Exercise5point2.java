@@ -1,7 +1,7 @@
 package edu.tekwill.array;
 /*
-* @ Author vas-chif
-* @Exercise #5.2 Working with arrays
+ @ Author vas-chif
+ @Exercise #5.2 Working with arrays
 */
 public class Exercise5point2 {
     public static void main(String[] args) {
