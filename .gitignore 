@@ -7,6 +7,4 @@ out/
 # Ignore all the files with the extension '.iml'.
 *.iml
 
-# Ignore all the folder that have the name 'probe'.
-probe/
 
