@@ -1,0 +1,12 @@
+# Ignore the folder .idea.
+.idea/
+
+# Ignore all the folders that have the name 'out'.
+out/
+
+# Ignore all the files with the extension '.iml'.
+*.iml
+
+# Ignore all the folder that have the name 'probe'.
+probe/
+
